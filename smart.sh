@@ -1,3 +1,25 @@
-z="
-";Oz='na M';BBz='if [';Dz='et -';kz='lolc';YBz='nks"';NBz='HOME';wz=' "y/';OBz='/Pul';CBz=' $ce';Gz=' " S';Kz=' lol';Qz='in "';Tz='t';JBz='hon ';XBz=' Tha';dz='_"  ';Az='clea';tz='suda';Zz='lcat';Uz=' "2r';gz='n no';xz='n?" ';VBz='= "n';pz=' "Ap';az='echo';Fz='ture';Hz='mart';Cz='toil';Ez='f fu';lz='at';IBz=' "Mo';qz='akah';Xz='a " ';Pz='ungk';Iz='fren';KBz='Tung';hz='mor ';Bz='r';bz=' " _';cz='____';TBz='.sh';mz='read';RBz='sh s';QBz='ome';GBz=' the';FBz='" ];';ABz='_nom';Yz='| lo';WBz=' "Ok';Sz='olca';vz='nar?';iz='Kamu';MBz='cd $';yz=' cek';sz='$nom';EBz='= "y';HBz='n';Rz=' | l';jz='" | ';fz='suka';Lz='cat';rz='or "';Vz='b pe';uz='h be';aBz='ance';ez=' "Ma';ZBz='sh c';oz='or';DBz='k_no';Wz='rgig';nz=' nom';LBz='gu" ';Mz=' "Ha';UBz='fi';bBz='l.sh';SBz='aldo';Jz=' " |';Nz='h Ma';PBz='sa/h';
-eval "$Az$Bz$z$Cz$Dz$Ez$Fz$Gz$Hz$Iz$Jz$Kz$Lz$z$Cz$Dz$Ez$Fz$Mz$Nz$Oz$Pz$Qz$Rz$Sz$Tz$z$Cz$Dz$Ez$Fz$Uz$Vz$Wz$Xz$Yz$Zz$z$az$bz$cz$cz$cz$cz$cz$cz$cz$cz$cz$cz$cz$cz$cz$dz$Yz$Zz$z$az$ez$fz$gz$hz$iz$jz$kz$lz$z$mz$nz$oz$z$az$z$az$pz$qz$nz$rz$sz$rz$tz$uz$vz$jz$kz$lz$z$az$wz$xz$Yz$Zz$z$mz$yz$ABz$oz$z$BBz$CBz$DBz$hz$EBz$FBz$GBz$HBz$z$az$z$az$IBz$JBz$KBz$LBz$Yz$Zz$z$MBz$NBz$OBz$PBz$QBz$z$RBz$SBz$TBz$z$UBz$z$BBz$CBz$DBz$hz$VBz$FBz$GBz$HBz$z$az$z$az$WBz$XBz$YBz$Rz$Sz$Tz$z$MBz$NBz$OBz$PBz$QBz$z$ZBz$aBz$bBz$z$UBz"
+clear
+toilet -f future " Smartfren " | lolcat
+toilet -f future "Hah Mana Mungkin " | lolcat
+toilet -f future "2rb pergiga " | lolcat
+echo " ______________________________________________________"  | lolcat
+echo "Masukan nomor Kamu" | lolcat
+read nomor
+echo
+echo "Apakah nomor "$nomor "sudah benar?" | lolcat
+echo "y/n?" | lolcat
+read cek_nomor
+
+if [ $cek_nomor = "y" ]; then
+    echo
+    echo "Mohon Tunggu" | lolcat
+    cd $HOME/Pulsa/home
+    sh saldo.sh
+fi
+
+if [ $cek_nomor = "n" ]; then
+    echo
+    echo "Ok Thanks" | lolcat
+    cd $HOME/Pulsa/home
+    sh cancel.sh
+fi

@@ -1,3 +1,23 @@
-z="
-";Sz='n no';qz='" ];';Tz='mor ';KBz='nks"';uz='hon ';jz='n?" ';MBz='olca';Uz='Kamu';Vz='" | ';Dz='et -';pz='= "y';FBz='.sh';fz='suda';GBz='fi';Iz='mnye';ez='$nom';cz='akah';Ez='f fu';Qz=' "Ma';Nz=' " _';sz='n';Wz='lolc';Lz='lcat';Mz='echo';Fz='ture';iz=' "y/';nz=' $ce';Gz=' " t';yz='HOME';Az='clea';Bz='r';Cz='toil';CBz='ome';Pz='_"  ';JBz=' Tha';mz='if [';HBz='= "n';Yz='read';tz=' "Mo';LBz=' | l';Rz='suka';DBz='sh s';Kz='| lo';BBz='sa/h';PBz='ance';OBz='sh c';kz=' cek';Zz=' nom';az='or';xz='cd $';ABz='/Pul';IBz=' "Ok';bz=' "Ap';rz=' the';EBz='aldo';vz='Tung';dz='or "';NBz='t';gz='h be';Hz='elko';Xz='at';oz='k_no';Jz='t " ';Oz='____';QBz='l.sh';wz='gu" ';hz='nar?';lz='_nom';
-eval "$Az$Bz$z$Cz$Dz$Ez$Fz$Gz$Hz$Iz$Jz$Kz$Lz$z$Mz$Nz$Oz$Oz$Oz$Oz$Oz$Oz$Oz$Oz$Oz$Oz$Oz$Oz$Oz$Pz$Kz$Lz$z$Mz$Qz$Rz$Sz$Tz$Uz$Vz$Wz$Xz$z$Yz$Zz$az$z$Mz$z$Mz$bz$cz$Zz$dz$ez$dz$fz$gz$hz$Vz$Wz$Xz$z$Mz$iz$jz$Kz$Lz$z$Yz$kz$lz$az$z$mz$nz$oz$Tz$pz$qz$rz$sz$z$Mz$z$Mz$tz$uz$vz$wz$Kz$Lz$z$xz$yz$ABz$BBz$CBz$z$DBz$EBz$FBz$z$GBz$z$mz$nz$oz$Tz$HBz$qz$rz$sz$z$Mz$z$Mz$IBz$JBz$KBz$LBz$MBz$NBz$z$xz$yz$ABz$BBz$CBz$z$OBz$PBz$QBz$z$GBz"
+clear
+toilet -f future " telkomnyet " | lolcat
+echo " ______________________________________________________"  | lolcat
+echo "Masukan nomor Kamu" | lolcat
+read nomor
+echo
+echo "Apakah nomor "$nomor "sudah benar?" | lolcat
+echo "y/n?" | lolcat
+read cek_nomor
+
+if [ $cek_nomor = "y" ]; then
+    echo
+    echo "Mohon Tunggu" | lolcat
+    cd $HOME/Pulsa/home
+    sh saldo.sh
+fi
+
+if [ $cek_nomor = "n" ]; then
+    echo
+    echo "Ok Thanks" | lolcat
+    cd $HOME/Pulsa/home
+    sh cancel.sh
+fi
